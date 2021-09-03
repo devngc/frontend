@@ -1,5 +1,10 @@
-document.getElementById("count-el").innerHTML = 5;
+let peopleCount = 0;
 
 function increment() {
-  console.log("A button was clicked.");
+  peopleCount += 1;
+  document.getElementById("count-el").innerHTML = peopleCount;
+}
+
+function save() {
+  console.log(peopleCount);
 }
