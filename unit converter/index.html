@@ -3,13 +3,22 @@
     <link rel="stylesheet" href="index.css" />
     <title>Unit Converter</title>
     <link rel="stylesheet" href="index.css" />
-    <script src="index.js" defer></script>
   </head>
 
   <body>
     <div id="gradient" class="text-center">
       <p id="heading">Metric/Imperial unit conversion</p>
-      <p id="number">20</p>
+      <ul class="list-input">
+		<li>
+		<button name="subject" type="submit" value="reset" onclick="reset()">Reset</button>
+		</li>
+        <li>
+          <input type="number" name="enter" id="number" placeholder="20" />
+        </li>
+        <li>
+          <button name="subject" type="submit" value="convert" onclick="convert()">Convert</button>
+        </li>
+      </ul>
     </div>
     <div class="text-center">
       <p class="unit">Length (Meter/feet)</p>
@@ -21,5 +30,6 @@
       <p class="unit">Mass (Kilograms/Pounds)</p>
       <p id="mass" class="conversion"></p>
     </div>
+    <script src="index.js"></script>
   </body>
 </html>

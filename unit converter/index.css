@@ -42,7 +42,7 @@ p{
     border-top: 0px;
 }
 
-#number{
+/* #number{
     height: 51.23px;
     font-family: 'arial';
     font-style: 'extra bold';
@@ -55,8 +55,33 @@ p{
     margin-bottom: 0px;
     border-bottom: 0px;
     margin-top:64px;
+} */
+
+
+
+/* #number{
+    height: 51.23px;
+    font-family: 'arial';
+    font-style: 'extra bold';
+    font-weight: 800;
+    font-size: 97.5723px;
+    line-height: 24px;
+    color: #FFFFFF;
+    padding-bottom: 54px;
+    margin-bottom: 0px;
+    border-bottom: 0px;
+    margin-top:64px;
+} */
+
+.list-input{
+    display: block;
+    text-align: center;
 }
 
+.list-input li{
+    display: inline;
+    vertical-align: middle;
+}
 .unit {
     height: 25px;
     font-family: 'arial';
