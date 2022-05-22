@@ -1,0 +1,61 @@
+h3{
+    margin-top: 10px;
+}
+
+.justify-left{
+    display: inline-block;
+    text-align: left;
+    margin-top: 110px;
+}
+
+.pass-button{
+    margin-top: 51px;
+}
+
+@media screen and (max-width: 800px){
+    .pass-button{
+        text-align: center;
+    }
+}
+
+.btn{
+    background-color:#4ADF86;
+    color: white;
+}
+
+
+
+.karla {
+    font-family: "Karla";
+    font-size: 40px;
+    font-weight: 800;
+    line-height: 40px;
+    letter-spacing: -0.025em;
+    text-align: left;
+
+
+}
+
+.inter {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    text-align: left;
+    display: inline-block
+
+}
+.green{
+    color: #4ADF86;
+}
+
+hr{
+    margin-top:35px;
+    margin-bottom: 35px;
+}
+
+.col{
+    margin: 1rem 0rem;
+}
+
